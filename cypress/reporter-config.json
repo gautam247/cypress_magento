@@ -1,0 +1,20 @@
+{
+    "reporterEnabled": "cypress-multi-reporters",
+    "reporterOptions": {
+      "configFile": "reporter-config.json"
+    },
+    "reporters": [
+      {
+        "name": "cypress-multi-reporters",
+        "options": {
+          "reporterEnabled": "json,cucumber-json",
+          "cucumberJsonReporterOptions": {
+            "jsonDir": "./cypress/reports/json",
+            "filePrefix": "",
+            "fileSuffix": ".cucumber"
+          }
+        }
+      }
+    ]
+  }
+  

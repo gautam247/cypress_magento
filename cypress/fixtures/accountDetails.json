@@ -1,0 +1,16 @@
+{
+    "invalidPassword": {
+      "firstName": "Gautam",
+      "lastName": "Test01",
+      "email": "gautam.sirohi@example.com",
+      "password": "Password123!",
+      "confirmPassword": "Password321!"
+    },
+    "validInformation": {
+      "firstName": "Gautam",
+      "lastName": "Test02",
+      "password": "Password123!",
+      "confirmPassword": "Password123!"
+    }
+  }
+  

@@ -25,6 +25,9 @@ module.exports = defineConfig({
     requestTimeout: 30000,
     setupNodeEvents,
     specPattern: ["cypress/e2e/features/*.feature"],
-    chromeWebSecurity: false
+    chromeWebSecurity: false,
+    env:{
+      baseUrl: "https://magento.softwaretestingboard.com"
+    }
   },
 });
